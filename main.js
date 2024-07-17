@@ -7,4 +7,5 @@ function changeSlide() {
   currentIndex = (currentIndex + 1) % slides.length;
   slides[currentIndex].style.opacity = 1;
 }
+
 setInterval(changeSlide, slideInterval);
