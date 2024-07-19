@@ -70,7 +70,7 @@ header {
 }
 .spec {
     position: relative;
-    padding-bottom: 140px;
+    padding-bottom: 160px;
 }
 .spec .particle {
     top: 100px;
@@ -81,12 +81,13 @@ header {
     gap: 40px;
     flex-wrap: wrap;
     margin-bottom: 80px;
+    margin-top: 30px;
 }
 .card{
- padding: 40px 30px;
+    padding: 30px 20px;
     flex-basis: 50%;
     max-width: 384px;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 1px solid #EDEDED;
     transform: scale(1);
     transition: 500ms;
@@ -133,10 +134,10 @@ h1 {
     margin: 0;
 }
 section {
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     background-color: rgb(255, 255, 255);
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h2 {
