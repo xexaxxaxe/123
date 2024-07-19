@@ -303,8 +303,8 @@ h2 {
 }
 @media (max-width: 576px) {
     .gallery img {
-        width: 120px;
-        height: 100px;
+        width: 100px;
+        height: 80px;
         margin: 5px;
         align-items: center;
     }
